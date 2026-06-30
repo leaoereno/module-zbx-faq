@@ -2,7 +2,7 @@
 
 **Base de Conhecimento FAQ** para Zabbix 7.0 LTS — módulo frontend em PHP com fluxo completo de criação, revisão, publicação e administração de artigos.
 
-Desenvolvido por [Rafael M. A. Leão Ereno](https://github.com/leaoereno) para o NOC Claro Empresas / Embratel.
+Desenvolvido por [Rafael M. A. Leão Ereno](https://github.com/leaoereno)
 
 ---
 
