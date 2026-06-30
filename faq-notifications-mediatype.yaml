@@ -1,0 +1,9 @@
+zabbix_export:
+  version: '7.0'
+  media_types:
+    - name: 'FAQ Notifications'
+      type: EMAIL
+      smtp_server: 192.168.0.150
+      smtp_helo: gmail.com
+      smtp_email: rafaelereno@gmail.com
+      description: 'Media type para notificacoes do modulo FAQ. Configure o SMTP apos criar.'

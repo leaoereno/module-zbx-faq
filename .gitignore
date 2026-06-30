@@ -1,0 +1,3 @@
+assets/media/*
+!assets/media/.gitkeep
+/tmp/faqm_*.eml

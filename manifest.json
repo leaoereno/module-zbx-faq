@@ -1,0 +1,87 @@
+{
+    "manifest_version": 2,
+    "id": "zbx-faq",
+    "name": "FAQ",
+    "version": "2.2.0",
+    "namespace": "ZbxFaq",
+    "author": "Rafael M. A. Leao Ereno - MALE",
+    "url": "https://www.linkedin.com/in/leaoereno/",
+    "description": "Base de Conhecimento FAQ com fluxo de criacao, revisao, publicacao e administracao.",
+    "actions": {
+        "zbx.faq.articles": {
+            "class": "FaqArticles",
+            "view": "zbx.faq.articles",
+            "layout": "layout.htmlpage"
+        },
+        "zbx.faq.write": {
+            "class": "FaqWrite",
+            "view": "zbx.faq.write",
+            "layout": "layout.htmlpage"
+        },
+        "zbx.faq.write.edit": {
+            "class": "FaqWriteEdit",
+            "view": "zbx.faq.write.edit",
+            "layout": "layout.htmlpage"
+        },
+        "zbx.faq.write.save": {
+            "class": "FaqWriteSave",
+            "layout": "layout.json",
+            "view": "zbx.faq.write.save"
+        },
+        "zbx.faq.view": {
+            "class": "FaqView",
+            "view": "zbx.faq.view",
+            "layout": "layout.htmlpage"
+        },
+        "zbx.faq.review": {
+            "class": "FaqReview",
+            "view": "zbx.faq.review",
+            "layout": "layout.htmlpage"
+        },
+        "zbx.faq.review.edit": {
+            "class": "FaqReviewEdit",
+            "view": "zbx.faq.review.edit",
+            "layout": "layout.htmlpage"
+        },
+        "zbx.faq.review.save": {
+            "class": "FaqReviewSave",
+            "layout": "layout.json",
+            "view": "zbx.faq.review.save"
+        },
+        "zbx.faq.admin": {
+            "class": "FaqAdmin",
+            "view": "zbx.faq.admin",
+            "layout": "layout.htmlpage"
+        },
+        "zbx.faq.admin.category.save": {
+            "class": "FaqAdminCategorySave",
+            "layout": "layout.json",
+            "view": "zbx.faq.admin.category.save"
+        },
+        "zbx.faq.admin.category.delete": {
+            "class": "FaqAdminCategoryDelete",
+            "layout": "layout.json",
+            "view": "zbx.faq.admin.category.delete"
+        },
+        "zbx.faq.admin.article.delete": {
+            "class": "FaqAdminArticleDelete",
+            "layout": "layout.json",
+            "view": "zbx.faq.admin.article.delete"
+        },
+        "zbx.faq.media.upload": {
+            "class": "FaqMediaUpload",
+            "layout": "layout.json",
+            "view": "zbx.faq.media.upload"
+        },
+        "zbx.faq.media.delete": {
+            "class": "FaqMediaDelete",
+            "layout": "layout.json",
+            "view": "zbx.faq.media.delete"
+        },
+        "zbx.faq.admin.tag.delete": {
+            "class": "FaqAdminTagDelete",
+            "view": "zbx.faq.admin.tag.delete",
+            "layout": "layout.json"
+        }
+    }
+}
